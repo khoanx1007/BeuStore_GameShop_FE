@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <link rel="stylesheet" href="css/shop-detail.css">
+    <title>Shop Details - Bếu Store</title>
+</head>
+<body>
+    <div id="helloworld" class="mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <b class="banner text-white">Free Delivery: Take advantage of our time to save event</b>
+                </div>
+                <div class="col-4">
+                    <b class="banner-language  text-left text-white font-weight-bold">Select language <i class="fas fa-chevron-down"></i>
+                        <ul class="listcate2">
+                            <li><a>Vietnamese</a></li>
+                            <li><a>English</a></li>
+                            <li><a>Spanish</a></li>
+                            <li><a>Japanese</a></li>
+                        </ul>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <nav class="navbar navbar-expand-lg header">   
+        <div class="container d-flex align-items-center justify-content-between">
+             <div id="left-1" class="col-xl-3 col-lg-3 col-md-6 col-8 text-left">
+                 <img src="IMG/mylogo.png" id="logo">
+             </div>
+             <div class="col-md-6 col-4 tab-content">
+                <div class="d-flex justify-content-end">
+                    <div class="header-list-item">
+                        <i id="icon-header" class="fas fa-shopping-bag"></i>
+                        <span class="number-icon">
+                            9
+                        </span>
+                    </div>
+                    <div class="menu-bars" >
+                        <i id="bars" class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="right-1" class="col-xl-6 col-lg-7 d-flex justify-content-center">
+                 <ul class="navi navbar-nav navbar-center me-auto mt-lg-0 mt-2">
+                     <li><a href="index.html" class="nav-bar font-weight-bold">HOME</a></li>
+                     <li><a href="shop.html" class="nav-bar font-weight-bold">SHOP <i class="fas fa-chevron-down"></i></a>
+                         <ul class="listcate">
+                            <li><a href="shop-details.html">Shop Details</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="checkout.html">Check Out</a></li>
+                         </ul>                         
+                     </li>
+                     <li><a href="about.html" class="nav-bar font-weight-bold">ABOUT ME</a></li>
+                     <li><a href="blog.html" class="nav-bar font-weight-bold">BLOG</a></li>
+                     <li><a href="q&a.html" class="nav-bar font-weight-bold">Q&A</a></li>
+                 </ul>                  
+            </div>
+            <div class="col-xl-3 col-lg-2 col-md-6 text-right desktop-content">
+                <div class="d-flex">
+                    <div class="header-list-item" id="hide1">
+                        <i id="icon-header" class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="header-list-item" id="hide2">
+                        <i id="icon-header" class="far fa-heart"></i>
+                        <span class="number-icon">
+                            9
+                        </span>
+                    </div>
+                    <div class="header-list-item">
+                        <i id="icon-header" class="fas fa-shopping-bag"></i>
+                        <span class="number-icon">
+                            9
+                        </span>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </nav>
+    <div class="menu-responsive">
+        <div class="menu-resin p-4 animate__animated">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="close-button text-right">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="text-center">
+                            <p class="banner-language"><b>Select  Language <i class="fas fa-angle-down"></i></b></p>
+                            <ul class="listcate3 text-left">
+                                <li><a>Vietnamese</a></li>
+                                <li><a>English</a></li>
+                                <li><a>Spanish</a></li>
+                                <li><a>Japanese</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input id="searching" type="text" class="form-control" placeholder="Search Everything">
+                            <span class="input-btn">
+                            <button id="submit"  class=" btn btn-success" type="button"><i class="fas fa-search"></i></button>
+                            </span>
+                        </div>  
+                    </div>
+                    <div class="col-12 mt-2">
+                        <div class="d-flex justify-content-center">
+                            <div class="header-list-item" id="hide1">
+                                <i id="icon-header" class="fas fa-user-friends"></i>
+                            </div>
+                            <div class="header-list-item" id="hide2">
+                                <i id="icon-header" class="far fa-heart"></i>
+                                <span class="number-icon">
+                                    9
+                                </span>
+                            </div>
+                            <div class="header-list-item">
+                                <i id="icon-header" class="fas fa-shopping-bag"></i>
+                                <span class="number-icon">
+                                    9
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 list-menu ml-1">
+                        <h6><a class="black" href="index.html">Home</a></h6>
+                        <div class="menu-acco">
+                            <div class="res-menu d-flex justify-content-between">
+                                <h6><a class="black" href="shop.html">Shop</a></h6>
+                                <span class="menu-icon">
+                                    <i id="plus" class="fas fa-plus"></i>
+                                    <i id="minus" class="fas fa-minus"></i>
+                                </span>
+                            </div>
+                            <div class="res-menu2 pl-3">
+                                <ul class="res-menul">
+                                    <li><a href="shop-details.html">Shop Detail</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h6><a class="black" href="blog.html">Blog</a></h6>
+                        <h6><a class="black" href="about.html">About</a></h6>
+                        <h6><a class="black" href="q&a.html">Q&A</a></h6>
+                    </div>
+                    <div class="col-12 res-menu-icon ml-1 mt-3 d-flex">
+                        <span class="res-menuicon">
+                            <i class="fab fa-facebook"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-youtube"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-google-plus-g"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-instagram"></i>
+                        </span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="end-hd mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-12 header-end_block ">
+                    <div class="category text-white">
+                        <span class="cate-click rounded-circle">
+                            <i class="align fas fa-align-left"></i>
+                            <b>CATEGORIES</b>
+                        </span>
+                    </div>
+                    <div class="category-menu">
+                        <ul>
+                            <li><a href="#">Search Terms</a></li>
+                            <li><a href="#">Advanced Search</a></li>
+                            <li><a href="#">Helps & Faqs</a></li>
+                            <li><a href="#">Store Location</a></li>
+                            <li><a href="#">Orders & Returns</a></li>
+                            <li><a href="#">Deliveries</a></li>
+                            <li><a href="#">More Categories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mt-1 searchbox">
+                    <div class="input-group">
+                        <input id="searching" type="text" class="form-control" placeholder="Search Everything">
+                        <span class="input-btn">
+                        <button id="submit"  class=" btn btn-success" type="button"><i class="fas fa-search"></i></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 calling-box">
+                    <div class="calling">
+                        <b>Call Us: 0385079001</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="linked pt-5 pb-5 mt-5 mb-5 text-center font-weight-bold">
+        <span>Home &nbsp;&nbsp;/&nbsp;&nbsp; Shop - Details</span>
+    </div>
+    <div class="main-shop"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="goods-header">
+                        <div class="goods-img border rounded mb-5">
+                            <img src="Img/farcry6.jpg" class="w-100">
+                        </div>
+                        <div class="row productimg-bot owl-carousel owl-theme owl-nav">
+                            <div class="col-12">
+                                <div class="bt-img border">
+                                    <img src="img/farcry6.jpg" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="bt-img border">
+                                    <img src="img/farcry61.jpg" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="bt-img border">
+                                    <img src="img/farcry62.jpg" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="bt-img border">
+                                    <img src="img/farcry63.jpg" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="bt-img border">
+                                    <img src="img/farcry64.jpg" class="w-100">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="bt-img border">
+                                    <img src="img/farcry65.jpg" class="w-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="goods-text">
+                        <h3>FAR CRY 6</h3>
+                        <div class="star-icon mt-2">
+                            <label for="rating1" class="fa fa-star"></label>
+                            <label for="rating2" class="fa fa-star"></label>
+                            <label for="rating3" class="fa fa-star"></label>
+                            <label for="rating4" class="fa fa-star"></label>
+                            <label for="rating5" class="fa fa-star"></label>
+                          </div>
+                        <p class="font-weight-bolder text-primary" >$59.99</p>
+                        <p class="text-secondary"> 
+                            Welcome to Yara, a tropical paradise frozen in time. As the dictator of Yara, Antón Castillo is intent on restoring his nation back to its former glory by any means, with his son, Diego, following in his bloody footsteps. Their oppressive rule has ignited a revolution.
+                            <ul class="des-farcry text-secondary col-12 border border-left-0 border-right-0 border-top-0 pb-3">
+                                <li>Play as Dani Rojas, a local Yaran, as you fight alongside a modern-day guerrilla revolution to liberate Yara!</li>
+                                <li>Fight against Castillo’s regime in the most expansive Far Cry® to date, through jungles, beaches, and Esperanza, the capital city of Yara.</li>
+                                <li>Employ an arsenal of resolver weapons, backpacks, and vehicles to take down Castillo’s ruthless regime.</li>
+                            </ul>
+                        </p>
+                        <h4 class="line"></h4>
+                        <h6><i class="fas fa-check-circle text-primary"></i> 13 IN STOCK</h6>
+                        <span  class="service-goods">
+                            <i class="far fa-edit  text-primary"></i> <a class="black pr-3" href="">Size guide</a>
+                            <i class="fas fa-truck text-primary"></i> <a class="black pr-3" href="">Shipping</a>
+                            <i class="fas fa-envelope  text-primary"></i> <a class="black pr-3" href="">Aks About This product</a>
+                        </span>
+                        <div class="quantity-goods d-flex align-items-center">
+                            <span class="quantext">Quantity:</span>
+                            <div class="numquan ml-1 mb-3">
+                                <div class="quantity d-flex justify-content-center align-items-center">
+                                    <div class="decre" style="cursor: pointer">
+                                        <span class="plus"><i class="fas fa-minus"></i></span>
+                                    </div>
+                                    <input type="text" class="qty-in form-control" maxlength="2" max="999" value="1">
+                                    <div class="incre" style="cursor: pointer">
+                                        <span class="minus"><i class="fas fa-plus"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buycart pt-3">
+                            <button><a href="#">Add to cart</a></button>
+                        </div>
+                        <div class="check pt-2 pb-2">
+                            <input type="checkbox" class="" >
+                            <label>
+                                I agree with the terms and conditions
+                              </label>
+                        </div>
+                        <div class="buycart">
+                            <button><a href="#">BUY IT NOW</a></button>
+                        </div>
+                        <h6 class="font-weight-bold mt-3">Guaranteed safe checkout</h6>
+                        <div class="logo-money mb-3">
+                            <img src="img/payment1.png">
+                        </div>
+                        <div class="share d-flex">
+                            <p class="font-weight-bold">Share:</p>
+                            <span class="icshare"><i class="fab fa-facebook"></i></span>
+                            <span class="icshare"><i class="fab fa-twitter"></i></span>
+                            <span class="icshare"><i class="fab fa-instagram"></i></span>
+                        </div>
+                        <h4 class="line"></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="goods-description mt-5 pt-5">
+        <div class="container">
+            <div class="goods-description-hd">
+                <ul class="d-flex threedes">
+                    <li class="gpbu blue">Gameplay</li>
+                    <li class="dvbu">Development</li>
+                    <li class="rcbu">Reception</li>
+                </ul>
+            </div>
+            <div class="destext" id="gpdes">
+                <p>Similar to the previous entries in the series, Far Cry 6 is an action-adventure first-person shooter game set in an open world environment which the player can navigate on foot or via using various land vehicles, combat vehicles, watercrafts, or aircrafts. The gameplay mainly focuses on armed and close-quarters combat, while also allows the player to freely roam and explore Yara's 88 km² (34 sq mi) environment, which is divided into seven main regions with a vast array of terrain ranging from urban areas and dense jungles to mountain ranges and open oceans.</p>
+                <p>The game incorporates many elements found in role-playing games, including upgradeable guerilla camps and gear customisation mechanics in order to uniquely tailor the gameplay experience, while also introducing a "Rank Level" system which indicates the rank of the player and highlights the level of a specific region similar to recent Assassin's Creed titles. As the game progresses and the player explores more regions of Yara, enemy forces will be equipped with more powerful, higher level gear and the surrounding military target locations become heavily fortified</p>
+            </div>
+            <div class="destext" id="dvdes">
+                <p>Production of Far Cry 6 had been ongoing for four years at the time of its July 2020 announcement, with Ubisoft Toronto the lead studio for the game. Narrative director Navid Khavari said that they started researching revolutions of the past, they came across the idea of the modern guerrilla revolution such as the Cuban Revolution, which gave them numerous ideas of how to drive the player-character into fighting against a repressive government. This also brought back the need to give the player-character, Dani Rojas, a voice, compared to recent Far Cry games in which the protagonist had been silent. Khavari said "it was essential for us to ensure that the protagonist has a personal investment in that revolution". Using Cuba as an influence also established the return to a tropical setting, a feature of the earlier Far Cry games, as well as giving the setting a "timeless" look due to economic blockades that had been imposed on the island, mixing vintage cars with modern weapons. Khavari spent a month in Cuba, speaking to residents there to help develop the setting.</p>
+                <p>In contrast to the media controversy over Ubisoft distancing its stance that Far Cry 5 was made as a political statement, Khavari said that Far Cry 6 was "political", adding: "A story about a modern revolution must be". While the game's narrative element is based on stories around Cuba, Khavari stated that the game "doesn't want to make a political statement about what's happening in Cuba specifically", and does not attempt to make "a simplified, binary political statement specifically on the current political climate in Cuba". Khavari's family had experienced the Iranian Revolution in the late 1970s, eventually having fled to Canada, and using these experiences, those from Cuba, and from other research that Ubisoft had done, he wanted Far Cry 6 to have a story "about the conditions that lead to the rise of fascism in a nation, the costs of imperialism, forced labor, the need for free-and-fair elections, LGBTQ+ rights, and more."</p>
+            </div>
+            <div class="destext" id="rcdes">
+                <p>Far Cry 6 received "generally favorable" reviews, according to review aggregator Metacritic.</p>
+                <p>An IGN review by Jon Ryan gave the game an 8 rating out of 10, saying that "Far Cry 6 smooths over a lot of the bumps that have cropped up in the past few games. Even though it misses some steps, especially with its new inventory system, it's the best the series has been in years."</p>
+                <p>Destructoid's Jordan Devore gave 7.5 points out of 10, saying "Solid and definitely have [sic] an audience. There could be some hard-to-ignore faults, but the experience is fun."</p>
+                <p>Matthew Gault of Vice criticized and described the game as "creatively and morally bankrupt", believing the game "felt like an exhausting chore list", Gault claimed his article "isn't a review" because "honestly, I can't play this shit anymore. I just can't do it."[</p>
+            </div>
+        </div>
+    </div>
+    <div class="new-products" style="padding-bottom: 0px;">
+        <div class="container">
+            <div class="row mb-3 ">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-12">
+                   <div class="category-home_text">
+                       <h3>Related Products</h3>
+                   </div>
+                </div>
+                <div class="col-xl-6 col-md-6 col-12">
+                    <div class="more-category">
+                        <a href="shop.html">More Products <i class="fas fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="productnew-box row m-0 owl-theme owl-carousel border border-bottom-0 border-right-0 border-left-0">
+                <div class="col-12 p-0">
+                    <div class="product-box" >
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="card-img-top" src="img/new1.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="label-new">NEW</span>
+                            </div>
+                            <div id="link-action" class="action_link animate__animated ">
+                                <ul>
+                                    <li>
+                                        <a><span><i class="fas fa-shopping-cart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="fas fa-sliders-h"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span ><i class="fas fa-heart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="far fa-eye"></i></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-block d-flex flex-column align-items-center"> 
+                                    <div class="star-icon mt-2">
+                                      <input type="radio" name="rating1" id="rating1">
+                                      <label for="rating1" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating2">
+                                      <label for="rating2" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating3">
+                                      <label for="rating3" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating4">
+                                      <label for="rating4" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating5">
+                                      <label for="rating5" class="fa fa-star"></label>
+                                    </div>
+                                <span class="font">
+                                   <a class="infocard font-weight-bold" href="shop-detail.html">Battlefield 2042</a>
+                                </span>
+                                <span class="font-weight-bolder">$69.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <div class="product-box" >
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="card-img-top" src="img/new3.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="label-new">NEW</span>
+                            </div>
+                            <div id="link-action" class="action_link animate__animated ">
+                                <ul>
+                                    <li>
+                                        <a><span><i class="fas fa-shopping-cart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="fas fa-sliders-h"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span ><i class="fas fa-heart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="far fa-eye"></i></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-block d-flex flex-column align-items-center"> 
+                                    <div class="star-icon mt-2">
+                                      <input type="radio" name="rating1" id="rating1">
+                                      <label for="rating1" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating2">
+                                      <label for="rating2" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating3">
+                                      <label for="rating3" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating4">
+                                      <label for="rating4" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating5">
+                                      <label for="rating5" class="fa fa-star"></label>
+                                    </div>
+                                <span class="font">
+                                   <a class="infocard font-weight-bold" href="shop-detail.html">Back 4 Blood</a>
+                                </span>
+                                <span class="font-weight-bolder">$49.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <div class="product-box" >
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="card-img-top" src="img/new4.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="label-new">NEW</span>
+                            </div>
+                            <div id="link-action" class="action_link animate__animated ">
+                                <ul>
+                                    <li>
+                                        <a><span><i class="fas fa-shopping-cart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="fas fa-sliders-h"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span ><i class="fas fa-heart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="far fa-eye"></i></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-block d-flex flex-column align-items-center"> 
+                                    <div class="star-icon mt-2">
+                                      <input type="radio" name="rating1" id="rating1">
+                                      <label for="rating1" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating2">
+                                      <label for="rating2" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating3">
+                                      <label for="rating3" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating4">
+                                      <label for="rating4" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating5">
+                                      <label for="rating5" class="fa fa-star"></label>
+                                    </div>
+                                <span class="font">
+                                   <a class="infocard font-weight-bold" href="shop-detail.html">Call of Duty: Vanguard</a>
+                                </span>
+                                <span class="font-weight-bolder">$59.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <div class="product-box" >
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="card-img-top" src="img/new5.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="label-new">NEW</span>
+                            </div>
+                            <div id="link-action" class="action_link animate__animated ">
+                                <ul>
+                                    <li>
+                                        <a><span><i class="fas fa-shopping-cart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="fas fa-sliders-h"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span ><i class="fas fa-heart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="far fa-eye"></i></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-block d-flex flex-column align-items-center"> 
+                                    <div class="star-icon mt-2">
+                                      <input type="radio" name="rating1" id="rating1">
+                                      <label for="rating1" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating2">
+                                      <label for="rating2" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating3">
+                                      <label for="rating3" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating4">
+                                      <label for="rating4" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating5">
+                                      <label for="rating5" class="fa fa-star"></label>
+                                    </div>
+                                <span class="font">
+                                   <a class="infocard font-weight-bold" href="shop-detail.html">Kena: Bridge of Spirits</a>
+                                </span>
+                                <span class="font-weight-bolder">$59.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <div class="product-box" >
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="card-img-top" src="img/new6.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="label-new">NEW</span>
+                            </div>
+                            <div id="link-action" class="action_link animate__animated ">
+                                <ul>
+                                    <li>
+                                        <a><span><i class="fas fa-shopping-cart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="fas fa-sliders-h"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span ><i class="fas fa-heart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="far fa-eye"></i></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-block d-flex flex-column align-items-center"> 
+                                    <div class="star-icon mt-2">
+                                      <input type="radio" name="rating1" id="rating1">
+                                      <label for="rating1" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating2">
+                                      <label for="rating2" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating3">
+                                      <label for="rating3" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating4">
+                                      <label for="rating4" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating5">
+                                      <label for="rating5" class="fa fa-star"></label>
+                                    </div>
+                                <span class="font">
+                                   <a class="infocard font-weight-bold" href="shop-detail.html">Fifa 22</a>
+                                </span>
+                                <span class="font-weight-bolder">$59.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <div class="product-box" >
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="card-img-top" src="img/new7.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="label-new">NEW</span>
+                            </div>
+                            <div id="link-action" class="action_link animate__animated ">
+                                <ul>
+                                    <li>
+                                        <a><span><i class="fas fa-shopping-cart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="fas fa-sliders-h"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span ><i class="fas fa-heart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="far fa-eye"></i></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-block d-flex flex-column align-items-center"> 
+                                    <div class="star-icon mt-2">
+                                      <input type="radio" name="rating1" id="rating1">
+                                      <label for="rating1" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating2">
+                                      <label for="rating2" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating3">
+                                      <label for="rating3" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating4">
+                                      <label for="rating4" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating5">
+                                      <label for="rating5" class="fa fa-star"></label>
+                                    </div>
+                                <span class="font">
+                                   <a class="infocard font-weight-bold" href="shop-detail.html">Life is Strange: True Colors</a>
+                                </span>
+                                <span class="font-weight-bolder">$59.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 p-0">
+                    <div class="product-box" >
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="">
+                                    <img class="card-img-top" src="img/new8.jpg">
+                                </a>
+                            </div>
+                            <div>
+                                <span class="label-new">NEW</span>
+                            </div>
+                            <div id="link-action" class="action_link animate__animated ">
+                                <ul>
+                                    <li>
+                                        <a><span><i class="fas fa-shopping-cart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="fas fa-sliders-h"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span ><i class="fas fa-heart"></i></span></a>
+                                    </li>
+                                    <li>
+                                        <a><span><i class="far fa-eye"></i></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-block d-flex flex-column align-items-center"> 
+                                    <div class="star-icon mt-2">
+                                      <input type="radio" name="rating1" id="rating1">
+                                      <label for="rating1" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating2">
+                                      <label for="rating2" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating3">
+                                      <label for="rating3" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating4">
+                                      <label for="rating4" class="fa fa-star"></label>
+                                      <input type="radio" name="rating1" id="rating5">
+                                      <label for="rating5" class="fa fa-star"></label>
+                                    </div>
+                                <span class="font">
+                                   <a class="infocard font-weight-bold" href="shop-detail.html">Resident Evil 8: Village</a>
+                                </span>
+                                <span class="font-weight-bolder">$59.99</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="logo-brand mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="logo-brand-slider  owl-theme owl-carousel " style="margin-top: 20px;">
+                    <div class="slider-box">
+                        <div class="col-12">
+                            <div class="brand-img">
+                                <img src="img/logo3.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box">
+                        <div class="col-12">
+                            <div class="brand-img">
+                                <img src="img/logo1.webp">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box">
+                        <div class="col-12">
+                            <div class="brand-img">
+                                <img src="img/logo5.png" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box">
+                        <div class="col-12">
+                            <div class="brand-img">
+                                <img src="img/log4.png" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box">
+                        <div class="col-12">
+                            <div class="brand-img">
+                                <img src="img/logo6.png" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box">
+                        <div class="col-12">
+                            <div class="brand-img">
+                                <img src="img/logo7.jpg" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-box">
+                        <div class="col-12">
+                            <div class="brand-img">
+                                <img src="img/logo11.png" >
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer mt-5">
+        <div class="container p-0">
+            <div class="row m-0 bgbot d-flex justify-content-center pt-5 pb-5">
+                    <div class="col-lg-4 col-md-6">
+                            <img src="img/mylogo.png" class="pb-4 position-relative w-50">
+                            <p class=""><i class="fas fa-home"></i> Van Xuyen, Hoang Van, Hiep Hoa, Bac Giang</p>
+                            <p class=""><i class="fas fa-phone-alt"></i> 0385079001</p>
+                            <p class=""><i class="fas fa-envelope"></i> khoanx1007@gmail.com</p>
+                            <div class="footer-block-icon">
+                                <span class="footer-icon">
+                                    <i class="fab fa-facebook"></i>
+                                   </span>
+                                   <span class="footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                   </span>
+                                   <span class="footer-icon">
+                                    <i class="fab fa-youtube"></i>
+                                   </span>
+                                   <span class="footer-icon">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </span>
+                            </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                            <h6 class="mb-4 h5 font-weight-bold">INFORMATION</h6>
+                            <ul class="list-unstyled ">
+                                <li><a href="">Delivery Information </a></li>
+                                <li><a href="">Advanced Search</a></li>
+                                <li><a href="">Helps & Faqs</a></li>
+                                <li><a href="">Store Location </a></li>
+                                <li><a href="">Orders & Returns </a></li>
+                                <li><a href="">Deliveries </a></li>
+                                <li><a href="">Refund & Returns</a></li>
+                            </ul>
+
+                    </div>                        
+                    <div class="col-lg-2 col-md-3">
+                            <h6 class="mb-4 h5 font-weight-bold">OUR COMPANY</h6>
+                            <ul class="list-unstyled ">
+                                <li><a href="">Delivery </a></li>
+                                <li><a href="">Legal Notice </a></li>
+                                <li><a href="">Sitemap</a></li>
+                                <li><a href="">Secure payment</a></li>
+                                <li><a href="">Blog </a></li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Carrers</a></li>                        
+                            </ul>
+                    </div>                        
+                    <div class="col-lg-2 col-md-6">
+                            <h6 class="mb-4 h5 font-weight-bold">MY ACCOUNT</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="">Search Terms</a></li>
+                                <li><a href="">Advanced Search </a></li>
+                                <li><a href="">Helps & Faqs </a></li>
+                                <li><a href="">Store Location</a></li>
+                                <li><a href="">Orders & Returns</a></li>
+                                <li><a href="">Deliveries</a></li>
+                                <li><a href="">Refund & Returns</a></li>                                
+                            </ul>
+                    </div>                        
+                    <div class="col-lg-2 col-md-6">
+                            <h6 class="mb-3 h5 font-weight-bold">OPENING TIME</h6>
+                            <ul class="list-unstyled mb-3">
+                                <li><a href="">Mon - Fri : 8AM - 10PM </a></li>
+                                <li><a href="">Sat : 9 AM-8PM </a></li>
+                                <li><a href="">Suns : 14hPM - 18hPM</a></li>
+                                <li><a href="">Mon - Fri : 8AM - 10PM</a></li>
+                                <li><a href="">We Work All The Holidays </a></li>
+                            </ul>      
+                            <a href="">Download My App</a>                         
+                    </div>
+            
+            </div>
+            <div class="row m-0 bgbot2 pt-2 pb-2">
+                <div class="col-12 text-center">
+                    <span><i class="far fa-copyright"></i> 2021 <span style="color:dodgerblue;">BeuStore. </span> Made with <i class="fas fa-heart text-danger"></i> by BeuToxic</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/code.js"></script>
+    <script src="js/shop-detail.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

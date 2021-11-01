@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Cart - Bếu Store</title>
+</head>
+<body>
+    <div id="helloworld" class="mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <b class="banner text-white">Free Delivery: Take advantage of our time to save event</b>
+                </div>
+                <div class="col-4">
+                    <b class="banner-language  text-left text-white font-weight-bold">Select language <i class="fas fa-chevron-down"></i>
+                        <ul class="listcate2">
+                            <li><a>Vietnamese</a></li>
+                            <li><a>English</a></li>
+                            <li><a>Spanish</a></li>
+                            <li><a>Japanese</a></li>
+                        </ul>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <nav class="navbar navbar-expand-lg header">   
+        <div class="container d-flex align-items-center justify-content-between">
+             <div id="left-1" class="col-xl-3 col-lg-3 col-md-6 col-8 text-left">
+                 <img src="IMG/mylogo.png" id="logo">
+             </div>
+             <div class="col-md-6 col-4 tab-content">
+                <div class="d-flex justify-content-end">
+                    <div class="header-list-item">
+                        <i id="icon-header" class="fas fa-shopping-bag"></i>
+                        <span class="number-icon">
+                            9
+                        </span>
+                    </div>
+                    <div class="menu-bars" >
+                        <i id="bars" class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="right-1" class="col-xl-6 col-lg-7 d-flex justify-content-center">
+                 <ul class="navi navbar-nav navbar-center me-auto mt-lg-0 mt-2">
+                     <li><a href="index.html" class="nav-bar font-weight-bold">HOME</a></li>
+                     <li><a href="shop.html" class="nav-bar font-weight-bold">SHOP <i class="fas fa-chevron-down"></i></a>
+                         <ul class="listcate">
+                            <li><a href="shop-details.html">Shop Details</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="checkout.html">Check Out</a></li>
+                         </ul>                         
+                     </li>
+                     <li><a href="about.html" class="nav-bar font-weight-bold">ABOUT ME</a></li>
+                     <li><a href="blog.html" class="nav-bar font-weight-bold">BLOG</a></li>
+                     <li><a href="q&a.html" class="nav-bar font-weight-bold">Q&A</a></li>
+                 </ul>                  
+            </div>
+            <div class="col-xl-3 col-lg-2 col-md-6 text-right desktop-content">
+                <div class="d-flex">
+                    <div class="header-list-item" id="hide1">
+                        <i id="icon-header" class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="header-list-item" id="hide2">
+                        <i id="icon-header" class="far fa-heart"></i>
+                        <span class="number-icon">
+                            9
+                        </span>
+                    </div>
+                    <div class="header-list-item">
+                        <i id="icon-header" class="fas fa-shopping-bag"></i>
+                        <span class="number-icon">
+                            9
+                        </span>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </nav>
+    <div class="menu-responsive">
+        <div class="menu-resin p-4 animate__animated">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="close-button text-right">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="text-center">
+                            <p class="banner-language"><b>Select  Language <i class="fas fa-angle-down"></i></b></p>
+                            <ul class="listcate3 text-left">
+                                <li><a>Vietnamese</a></li>
+                                <li><a>English</a></li>
+                                <li><a>Spanish</a></li>
+                                <li><a>Japanese</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input id="searching" type="text" class="form-control" placeholder="Search Everything">
+                            <span class="input-btn">
+                            <button id="submit"  class=" btn btn-success" type="button"><i class="fas fa-search"></i></button>
+                            </span>
+                        </div>  
+                    </div>
+                    <div class="col-12 mt-2">
+                        <div class="d-flex justify-content-center">
+                            <div class="header-list-item" id="hide1">
+                                <i id="icon-header" class="fas fa-user-friends"></i>
+                            </div>
+                            <div class="header-list-item" id="hide2">
+                                <i id="icon-header" class="far fa-heart"></i>
+                                <span class="number-icon">
+                                    9
+                                </span>
+                            </div>
+                            <div class="header-list-item">
+                                <i id="icon-header" class="fas fa-shopping-bag"></i>
+                                <span class="number-icon">
+                                    9
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 list-menu ml-1">
+                        <h6><a class="black" href="index.html">Home</a></h6>
+                        <div class="menu-acco">
+                            <div class="res-menu d-flex justify-content-between">
+                                <h6><a class="black" href="shop.html">Shop</a></h6>
+                                <span class="menu-icon">
+                                    <i id="plus" class="fas fa-plus"></i>
+                                    <i id="minus" class="fas fa-minus"></i>
+                                </span>
+                            </div>
+                            <div class="res-menu2 pl-3">
+                                <ul class="res-menul">
+                                    <li><a href="shop-details.html">Shop Detail</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h6><a class="black" href="blog.html">Blog</a></h6>
+                        <h6><a class="black" href="about.html">About</a></h6>
+                        <h6><a class="black" href="q&a.html">Q&A</a></h6>
+                    </div>
+                    <div class="col-12 res-menu-icon ml-1 mt-3 d-flex">
+                        <span class="res-menuicon">
+                            <i class="fab fa-facebook"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-youtube"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-google-plus-g"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-instagram"></i>
+                        </span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="end-hd mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-12 header-end_block ">
+                    <div class="category text-white">
+                        <span class="cate-click rounded-circle">
+                            <i class="align fas fa-align-left"></i>
+                            <b>CATEGORIES</b>
+                        </span>
+                    </div>
+                    <div class="category-menu">
+                        <ul>
+                            <li><a href="#">Search Terms</a></li>
+                            <li><a href="#">Advanced Search</a></li>
+                            <li><a href="#">Helps & Faqs</a></li>
+                            <li><a href="#">Store Location</a></li>
+                            <li><a href="#">Orders & Returns</a></li>
+                            <li><a href="#">Deliveries</a></li>
+                            <li><a href="#">More Categories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mt-1 searchbox">
+                    <div class="input-group">
+                        <input id="searching" type="text" class="form-control" placeholder="Search Everything">
+                        <span class="input-btn">
+                        <button id="submit"  class=" btn btn-success" type="button"><i class="fas fa-search"></i></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 calling-box">
+                    <div class="calling">
+                        <b>Call Us: 0385079001</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="linked pt-5 pb-5 mt-5 mb-5 text-center font-weight-bold">
+        <span>Home &nbsp;&nbsp;/&nbsp;&nbsp; Cart</span>
+    </div>
+    <div class="main-cart">
+        <div class="container">
+            <div class="row ">
+                <h3 class="col-12 font-weight-bold mb-3">Your cart item</h3>
+                <div class="cartban col-12">
+                    <div class="row m-0 borderoutside d-lg-flex d-md-flex d-none">
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                            <div class="cart-content">
+                                <span>IMAGE</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                            <div class="cart-content">
+                                <span>PRODUCT NAME</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                            <div class="cart-content">
+                                <span>UNTIL PRICE </span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                            <div class="cart-content">
+                                <span>QTY</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                            <div class="cart-content">
+                                <span>SUBTOTAL</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                            <div class="cart-content">
+                                <pan>ACTION</pan>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0 border d-flex  justify-content-center align-items-center">
+                        <div class="ctic">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2 cart-img">
+                                <img src="img/bg1.png" class="w-100"></img>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <span>Ghost Of Tsushima</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <span>$59.99 </span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <div class="quantity-goods d-flex align-items-center justify-content-center">
+                                    <div class="numquan ml-1 mb-3">
+                                        <div class="quantity d-flex justify-content-center align-items-center">
+                                            <div class="decre" style="cursor: pointer">
+                                                <span class="plus"><i class="fas fa-minus"></i></span>
+                                            </div>
+                                            <input type="text" class="qty-in form-control" maxlength="2" max="999" value="1">
+                                            <div class="incre" style="cursor: pointer">
+                                                <span class="minus"><i class="fas fa-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <span class="font-weight-bold">$59.99</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-contentic">
+                                <span><i class="fas fa-pencil-alt"></i> &nbsp; <i class="fas fa-times"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0 border d-flex  justify-content-center align-items-center">
+                        <div class="ctic">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2 cart-img">
+                                <img src="img/bg9.png" class=" w-100"></img>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <span>Legend of Zelda: BOTW</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <span>$59.99 </span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <div class="quantity-goods d-flex align-items-center justify-content-center">
+                                    <div class="numquan ml-1 mb-3">
+                                        <div class="quantity d-flex justify-content-center align-items-center">
+                                            <div class="decre" style="cursor: pointer">
+                                                <span class="plus"><i class="fas fa-minus"></i></span>
+                                            </div>
+                                            <input type="text" class="qty-in form-control" maxlength="2" max="999" value="1">
+                                            <div class="incre" style="cursor: pointer">
+                                                <span class="minus"><i class="fas fa-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <span class="font-weight-bold">$59.99</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2">
+                            <div class="cart-contentic">
+                                <span><i class="fas fa-pencil-alt"></i> &nbsp; <i class="fas fa-times"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-0 border d-flex  justify-content-center align-items-center">
+                        <div class="ctic">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2 cart-img">
+                                <img src="img/new1.jpg" class="w-100"></img>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <span>Battlefield 2042</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <span>$79.99</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <div class="quantity-goods d-flex align-items-center justify-content-center">
+                                    <div class="numquan ml-1 mb-3">
+                                        <div class="quantity d-flex justify-content-center align-items-center">
+                                            <div class="decre" style="cursor: pointer">
+                                                <span class="plus"><i class="fas fa-minus"></i></span>
+                                            </div>
+                                            <input type="text" class="qty-in form-control" maxlength="2" max="999" value="1">
+                                            <div class="incre" style="cursor: pointer">
+                                                <span class="minus"><i class="fas fa-plus"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-12">
+                            <div class="cart-content2">
+                                <span class="font-weight-bold">$79.99</span>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-2 col-2">
+                            <div class="cart-contentic">
+                                <span><i class="fas fa-pencil-alt"></i> &nbsp; <i class="fas fa-times"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 d-flex justify-content-left pb-2">
+                <div class="col-lg-6 col-12 btn-left d-flex flex-md-row flex-column">
+                    <div class="buycart mt-4">
+                        <a href="index.html">UPDATE CART</a>
+                    </div>
+                    <div class="buycart ml-md-2 mt-4">
+                        <a href="index.html">CONTINUE SHOPPING</a>
+                    </div>
+                    <div class="clearcart ml-md-2 mt-4">
+                        <a href="index.html">CLEAR CART</a>
+                    </div>
+                </div>
+                
+            </div>
+            <form action method="POST" class="formcart mt-5 pd-5">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-12 mb-3">
+                                <h5 class="">ESTIMATE SHIPPING AND TAX</h5>
+                                <h4 class="line"></h4>
+                                <p>Enter your destination to get a shipping estimate</p>
+                                <div class="country-select d-flex flex-column">
+                                    <label class="form-label font-weight-bold h6 pb-2" >*Country</label>
+									<input list="boxop" name="country" class="form-group" required placeholder="Select Country">
+									<datalist id="boxop">
+                                        <option value="Japan"></option>
+                                        <option value="England"></option>
+                                        <option value="France"></option>
+                                        <option value="United States"></option>
+										<option value="Vietnam"></option>
+									</datalist>
+                                </div>
+                                <div class="country-select d-flex flex-column">
+                                    <label class="form-label font-weight-bold h6 pb-2" >*Region/State</label>
+									<input list="boxop2" name="rgst" class="form-group" required placeholder="Select Region/State">
+									<datalist id="boxop2">
+                                        <option value="Tokyo"></option>
+                                        <option value="Kyoto"></option>
+                                        <option value="Osaka"></option>
+                                        <option value="Hokaido"></option>
+										<option value="Chiba"></option>
+									</datalist>
+                                </div>
+                                <div class="country-select d-flex flex-column">
+                                    <label class="form-label font-weight-bold h6 pb-2" >*Zip/Postal Code </label>
+									<input type="text" name="zipo" class="form-group" required>
+                                </div>
+                                <div class="buycart mt-3">
+                                    <button>GET A QUOTE</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-12 mb-3">
+                                <h5 class="">ENTER COUPON CODE</h5>
+                                <h4 class="line"></h4>
+                                <p>Enter your coupon code if you have one.</p>
+                                <div class="country-select d-flex flex-column">
+                                    <label class="form-label font-weight-bold h6 pb-2" >Enter Coupon Code</label>
+									<input type="text" name="coupon" class="opti">
+                                </div>
+                                <div class="buycart mt-3">
+                                    <button>GET COUPON</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <h5 class="pb-1">CART TOTAL</h5>                    
+                        <p class="d-flex justify-content-between">
+                            <span>Total product price</span>
+                            <b>$199.97</b>
+                        </p>
+                        <p class="line"></p>
+                        <p class="pb-3">Total shipping</p>
+                        <div class="cart-total d-flex justify-content-between pb-3">
+                            <div class="radio">
+                                <input type="radio" name="abc" checked=""> Standard
+                            </div>
+                            <span class="font-weight-bold">
+                                $20.00
+                            </span>
+                        </div>
+                        <div class="cart-total d-flex justify-content-between pb-1">
+                            <div class="radio">
+                                <input type="radio" name="abc" checked=""> Express
+                            </div>
+                            <span class="font-weight-bold">
+                                $30.00
+                            </span>
+                        </div>
+                        <p class="line"></p>
+                        <div class="totalgrand d-flex justify-content-between">
+                            <h4 class="font-weight-bold">Grand Total</h4>
+                            <h4 class="font-weight-bold">$219.97</h4>
+                        </div>
+                        <div class="buycart mt-3">
+                            <button>PROCEED TO CHECKOUT</button>
+                        </div>                                
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer mt-5">
+        <div class="container p-0">
+            <div class="row m-0 bgbot d-flex justify-content-center pt-5 pb-5">
+                    <div class="col-lg-4 col-md-6">
+                            <img src="img/mylogo.png" class="pb-4 position-relative w-50">
+                            <p class=""><i class="fas fa-home"></i> Van Xuyen, Hoang Van, Hiep Hoa, Bac Giang</p>
+                            <p class=""><i class="fas fa-phone-alt"></i> 0385079001</p>
+                            <p class=""><i class="fas fa-envelope"></i> khoanx1007@gmail.com</p>
+                            <div class="footer-block-icon">
+                                <span class="footer-icon">
+                                    <i class="fab fa-facebook"></i>
+                                   </span>
+                                   <span class="footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                   </span>
+                                   <span class="footer-icon">
+                                    <i class="fab fa-youtube"></i>
+                                   </span>
+                                   <span class="footer-icon">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </span>
+                            </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                            <h6 class="mb-4 h5 font-weight-bold">INFORMATION</h6>
+                            <ul class="list-unstyled ">
+                                <li><a href="">Delivery Information </a></li>
+                                <li><a href="">Advanced Search</a></li>
+                                <li><a href="">Helps & Faqs</a></li>
+                                <li><a href="">Store Location </a></li>
+                                <li><a href="">Orders & Returns </a></li>
+                                <li><a href="">Deliveries </a></li>
+                                <li><a href="">Refund & Returns</a></li>
+                            </ul>
+
+                    </div>                        
+                    <div class="col-lg-2 col-md-3">
+                            <h6 class="mb-4 h5 font-weight-bold">OUR COMPANY</h6>
+                            <ul class="list-unstyled ">
+                                <li><a href="">Delivery </a></li>
+                                <li><a href="">Legal Notice </a></li>
+                                <li><a href="">Sitemap</a></li>
+                                <li><a href="">Secure payment</a></li>
+                                <li><a href="">Blog </a></li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Carrers</a></li>                        
+                            </ul>
+                    </div>                        
+                    <div class="col-lg-2 col-md-6">
+                            <h6 class="mb-4 h5 font-weight-bold">MY ACCOUNT</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="">Search Terms</a></li>
+                                <li><a href="">Advanced Search </a></li>
+                                <li><a href="">Helps & Faqs </a></li>
+                                <li><a href="">Store Location</a></li>
+                                <li><a href="">Orders & Returns</a></li>
+                                <li><a href="">Deliveries</a></li>
+                                <li><a href="">Refund & Returns</a></li>                                
+                            </ul>
+                    </div>                        
+                    <div class="col-lg-2 col-md-6">
+                            <h6 class="mb-3 h5 font-weight-bold">OPENING TIME</h6>
+                            <ul class="list-unstyled mb-3">
+                                <li><a href="">Mon - Fri : 8AM - 10PM </a></li>
+                                <li><a href="">Sat : 9 AM-8PM </a></li>
+                                <li><a href="">Suns : 14hPM - 18hPM</a></li>
+                                <li><a href="">Mon - Fri : 8AM - 10PM</a></li>
+                                <li><a href="">We Work All The Holidays </a></li>
+                            </ul>      
+                            <a href="">Download My App</a>                         
+                    </div>
+            
+            </div>
+            <div class="row m-0 bgbot2 pt-2 pb-2">
+                <div class="col-12 text-center">
+                    <span><i class="far fa-copyright"></i> 2021 <span style="color:dodgerblue;">BeuStore. </span> Made with <i class="fas fa-heart text-danger"></i> by BeuToxic</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/code.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

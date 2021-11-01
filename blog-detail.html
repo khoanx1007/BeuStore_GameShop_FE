@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+    <link rel="stylesheet" href="css/blog-detail.css">
+    <title>Blog Details - Bếu Store</title>
+</head>
+<body>
+    <div id="helloworld" class="mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <b class="banner text-white">Free Delivery: Take advantage of our time to save event</b>
+                </div>
+                <div class="col-4">
+                    <b class="banner-language  text-left text-white font-weight-bold">Select language <i class="fas fa-chevron-down"></i>
+                        <ul class="listcate2">
+                            <li><a>Vietnamese</a></li>
+                            <li><a>English</a></li>
+                            <li><a>Spanish</a></li>
+                            <li><a>Japanese</a></li>
+                        </ul>
+                    </b>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <nav class="navbar navbar-expand-lg header">   
+        <div class="container d-flex align-items-center justify-content-between">
+             <div id="left-1" class="col-xl-3 col-lg-3 col-md-6 col-8 text-left">
+                 <img src="IMG/mylogo.png" id="logo">
+             </div>
+             <div class="col-md-6 col-4 tab-content">
+                <div class="d-flex justify-content-end">
+                    <div class="header-list-item">
+                        <i id="icon-header" class="fas fa-shopping-bag"></i>
+                        <span class="number-icon">
+                            9
+                        </span>
+                    </div>
+                    <div class="menu-bars" >
+                        <i id="bars" class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+            <div id="right-1" class="col-xl-6 col-lg-7 d-flex justify-content-center">
+                 <ul class="navi navbar-nav navbar-center me-auto mt-lg-0 mt-2">
+                     <li><a href="index.html" class="nav-bar font-weight-bold">HOME</a></li>
+                     <li><a href="shop.html" class="nav-bar font-weight-bold">SHOP <i class="fas fa-chevron-down"></i></a>
+                         <ul class="listcate">
+                            <li><a href="shop-details.html">Shop Details</a></li>
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="checkout.html">Check Out</a></li>
+                         </ul>                         
+                     </li>
+                     <li><a href="about.html" class="nav-bar font-weight-bold">ABOUT ME</a></li>
+                     <li><a href="blog.html" class="nav-bar font-weight-bold">BLOG</a></li>
+                     <li><a href="q&a.html" class="nav-bar font-weight-bold">Q&A</a></li>
+                 </ul>                  
+            </div>
+            <div class="col-xl-3 col-lg-2 col-md-6 text-right desktop-content">
+                <div class="d-flex">
+                    <div class="header-list-item" id="hide1">
+                        <i id="icon-header" class="fas fa-user-friends"></i>
+                    </div>
+                    <div class="header-list-item" id="hide2">
+                        <i id="icon-header" class="far fa-heart"></i>
+                        <span class="number-icon">
+                            9
+                        </span>
+                    </div>
+                    <div class="header-list-item">
+                        <i id="icon-header" class="fas fa-shopping-bag"></i>
+                        <span class="number-icon">
+                            9
+                        </span>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </nav>
+    <div class="menu-responsive">
+        <div class="menu-resin p-4 animate__animated">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="close-button text-right">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="text-center">
+                            <p class="banner-language"><b>Select  Language <i class="fas fa-angle-down"></i></b></p>
+                            <ul class="listcate3 text-left">
+                                <li><a>Vietnamese</a></li>
+                                <li><a>English</a></li>
+                                <li><a>Spanish</a></li>
+                                <li><a>Japanese</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="input-group">
+                            <input id="searching" type="text" class="form-control" placeholder="Search Everything">
+                            <span class="input-btn">
+                            <button id="submit"  class=" btn btn-success" type="button"><i class="fas fa-search"></i></button>
+                            </span>
+                        </div>  
+                    </div>
+                    <div class="col-12 mt-2">
+                        <div class="d-flex justify-content-center">
+                            <div class="header-list-item" id="hide1">
+                                <i id="icon-header" class="fas fa-user-friends"></i>
+                            </div>
+                            <div class="header-list-item" id="hide2">
+                                <i id="icon-header" class="far fa-heart"></i>
+                                <span class="number-icon">
+                                    9
+                                </span>
+                            </div>
+                            <div class="header-list-item">
+                                <i id="icon-header" class="fas fa-shopping-bag"></i>
+                                <span class="number-icon">
+                                    9
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 list-menu ml-1">
+                        <h6><a class="black" href="index.html">Home</a></h6>
+                        <div class="menu-acco">
+                            <div class="res-menu d-flex justify-content-between">
+                                <h6><a class="black" href="shop.html">Shop</a></h6>
+                                <span class="menu-icon">
+                                    <i id="plus" class="fas fa-plus"></i>
+                                    <i id="minus" class="fas fa-minus"></i>
+                                </span>
+                            </div>
+                            <div class="res-menu2 pl-3">
+                                <ul class="res-menul">
+                                    <li><a href="shop-details.html">Shop Detail</a></li>
+                                    <li><a href="cart.html">Cart</a></li>
+                                    <li><a href="checkout.html">Checkout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h6><a class="black" href="blog.html">Blog</a></h6>
+                        <h6><a class="black" href="about.html">About</a></h6>
+                        <h6><a class="black" href="q&a.html">Q&A</a></h6>
+                    </div>
+                    <div class="col-12 res-menu-icon ml-1 mt-3 d-flex">
+                        <span class="res-menuicon">
+                            <i class="fab fa-facebook"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-youtube"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-google-plus-g"></i>
+                        </span>
+                        <span class="res-menuicon">
+                            <i class="fab fa-instagram"></i>
+                        </span> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="end-hd mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-12 header-end_block ">
+                    <div class="category text-white">
+                        <span class="cate-click rounded-circle">
+                            <i class="align fas fa-align-left"></i>
+                            <b>CATEGORIES</b>
+                        </span>
+                    </div>
+                    <div class="category-menu">
+                        <ul>
+                            <li><a href="#">Search Terms</a></li>
+                            <li><a href="#">Advanced Search</a></li>
+                            <li><a href="#">Helps & Faqs</a></li>
+                            <li><a href="#">Store Location</a></li>
+                            <li><a href="#">Orders & Returns</a></li>
+                            <li><a href="#">Deliveries</a></li>
+                            <li><a href="#">More Categories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mt-1 searchbox">
+                    <div class="input-group">
+                        <input id="searching" type="text" class="form-control" placeholder="Search Everything">
+                        <span class="input-btn">
+                        <button id="submit"  class=" btn btn-success" type="button"><i class="fas fa-search"></i></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 calling-box">
+                    <div class="calling">
+                        <b>Call Us: 0385079001</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="linked pt-5 pb-5 mt-5 mb-5 text-center font-weight-bold">
+        <span>Home &nbsp;&nbsp;/&nbsp;&nbsp; Blog - Details</span>
+    </div>
+    <div class="blog">
+        <div class="container">
+            <div class="row d-flex flex-row-reverse">
+                <div class="col-xl-9 col-lg-9 col-12">
+                    <div class="bar-info pb-5"> 
+                        <div class="row ">
+                            <div class="cate-top2 bg-white news">
+                                <div class="cate-top2_img">
+                                    <img class="product-img" src="img/bg4.png">
+                                </div>
+                                <div class="cate2-des text-dark" >
+                                    <h4 class="font-weight-bold text-dark pt-3 ">Plot of Red Dead Redemption 2</h4>
+                                    <h6 class="font-weight-bolder text-secondary pt-3 pb-3 ">
+                                        <span class="bytime" ><i class="far fa-calendar"></i> Jul 12, 2018</span>
+                                        <span class="bytime" ><i class="far fa-user"></i> Wikipedia</span>
+                                    </h6>
+                                    <p>
+                                        After a botched ferry heist in 1899, the Van der Linde gang are forced to leave their substantial money stash and flee Blackwater. Realizing the progress of civilization is ending the time of outlaws, they decide to gain enough money to escape the law and retire. They rob a train owned by Cornwall, who hires Pinkertons to apprehend them. The gang perform jobs to earn money, as Dutch continually promises the next heist will be their last. Following a shootout with Cornwall's men in Valentine, the gang relocate to Lemoyne, where they work simultaneously for the Grays and Braithwaites in an attempt to turn them against each other. However, the families double-cross them: the Grays kill a gang member during an ambush, while the Braithwaites kidnap and sell Jack to Bronte. The gang retaliate and destroy both families before retrieving Jack from Bronte, who offers them leads on work, but eventually double-crosses them. Dutch kidnaps and feeds him to an alligator as revenge, which disturbs Arthur. The gang rob a bank in Saint Denis, but the Pinkertons intervene, killing Hosea and arresting John. Dutch, Arthur, Bill, Javier, and Micah escape the city via a ship heading to Cuba. A torrential storm sinks the ship, and the men wash ashore on the island of Guarma, where they become embroiled in a war between tyrannical sugar plantation owner Fussar and the enslaved local population. After helping the revolutionaries kill Fussar, the group secure transport back to the United States and reunite with the rest of the gang. Dutch obsesses over one last heist and doubts Arthur's loyalty after he disobeys him by liberating John earlier than planned, naming Micah his top lieutenant in Arthur's place. Arthur becomes concerned that Dutch is no longer the man he knew, as he is becoming insular, abandons their ideals, and murders Cornwall. He is faced with his mortality when he is diagnosed with tuberculosis. Arthur reflects on his actions and how to protect the gang following his death, telling John to run away with Abigail and Jack and openly defying Dutch by aiding the local Native American people. When the Pinkertons assault the camp, Dutch becomes paranoid that a gang member is working as an informant. Several gang members become disenchanted and leave, while Dutch and Micah arrange one final heist of an Army payroll train.
+                                    </p>
+                                    <blockquote>
+                                        "Lack of something to feel important about is almost the greatest tragedy a man may have."
+                                        -Arthur Morgan.
+                                    </blockquote>
+                                    <p>
+                                        Arthur's faith in Dutch is shattered when he abandons Arthur to the Army, leaves John for dead, and refuses to rescue Abigail when she is taken. Arthur and Sadie rescue Abigail from Milton, who names Micah as the Pinkertons' informer before Abigail kills him. Arthur returns to camp and openly accuses Micah of betrayal. Dutch, Bill, Javier, and Micah turn on Arthur and a newly returned John, but the standoff is broken when Pinkertons attack. The player can choose to have Arthur aid John's escape by delaying the Pinkertons or return to the camp to recover the gang's money. Micah ambushes Arthur, and Dutch intervenes in their fight. Arthur convinces Dutch to abandon Micah and leave. If the player has high honor, Arthur succumbs to his injuries and disease and dies while watching the sunrise; if the player has low honor, Micah executes him. Eight years later, in 1907, John and his family are trying to lead honest lives. They find work at a ranch where John fights back against outlaws threatening his employer. Believing John is unwilling to give up his old ways, Abigail leaves with Jack. John takes a loan from the bank to purchase a ranch. He works with Uncle, Sadie, and Charles to build a new home, and proposes to Abigail on her return. Afterwards, learning Micah is still alive and formed his own gang, John, Sadie, and Charles assault his camp and find a recently arrived Dutch, who shoots Micah after a tense standoff and leaves in silence, allowing John to kill him and claim the gang's Blackwater stash to pay his debt. John then marries Abigail and they start a new life on their ranch alongside Jack and Uncle, as Sadie and Charles leave for other pursuits.
+                                    </p>
+                                    <div class="tag-share d-flex justify-content-sm-between">
+                                        <div class="tag">
+                                            <span><b>Tags: &nbsp;</b> #Game, #AthurDeath, #GOTY</span>
+                                        </div>
+                                        <div class="share">
+                                            <span><b>Sharing: &nbsp;</b><i class="fab fa-facebook social"></i> &nbsp; <i class="fab fa-twitter social"></i> &nbsp; <i class="fab fa-instagram social"></i> &nbsp; <i class="fab fa-google social"></i></span>
+                                        </div>
+                                    </div>
+                                    <div class="comment mt-5">
+                                        <h3>3 Comment</h3>
+                                        <div class="comment-block">
+                                            <div class="row cmt">
+                                                <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                                                    <div class="cmt-img">
+                                                        <img src="img/athurmorgan.jpg" class="w-100">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-10 col-lg-10 col-md-10 col-12">
+                                                    <div class="cmt-in">
+                                                        <div class="cmt-tit d-flex justify-content-between align-items-center">
+                                                            <div class="textcmt">
+                                                                <h5>Athur Morgan</h5>
+                                                                <p>Oct 29, 2021</p>
+                                                            </div>
+                                                            <div class="reply">
+                                                                <a href="" class="aele"><i class="fas fa-reply"></i>Reply</a>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            We Are Thieves In A World That Don't Want Us No More. Be loyal to what matters. You don't get to live a bad life and have good things happen to you.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row cmt-rep">
+                                                <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                                                    <div class="cmt-img">
+                                                        <img src="img/Norse_Kratos.png" class="w-100">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-10 col-lg-10 col-md-10 col-12">
+                                                    <div class="cmt-in">
+                                                        <div class="cmt-tit d-flex justify-content-between align-items-center">
+                                                            <div class="textcmt">
+                                                                <h5>Kratos</h5>
+                                                                <p>Oct 29, 2021</p>
+                                                            </div>
+                                                            <div class="reply">
+                                                                <a href="" class="aele"><i class="fas fa-reply"></i>Reply</a>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            A Choice From The Gods Is As Useless As The Gods Themselves. He has learned from experience that a choice from the gods is just an illusion, making inferior beings feel like they have control.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row cmt">
+                                                <div class="col-xl-2 col-lg-2 col-md-2 col-6">
+                                                    <div class="cmt-img">
+                                                        <img src="img/JinSakai.png" class="w-100">
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-10 col-lg-10 col-md-10 col-12">
+                                                    <div class="cmt-in">
+                                                        <div class="cmt-tit d-flex justify-content-between align-items-center">
+                                                            <div class="textcmt">
+                                                                <h5>Jin Sakai</h5>
+                                                                <p>Oct 29, 2021</p>
+                                                            </div>
+                                                            <div class="reply">
+                                                                <a href="" class="aele"><i class="fas fa-reply"></i>Reply</a>
+                                                            </div>
+                                                        </div>
+                                                        <p>
+                                                            You will never leave this island. I sacrificed everything for my people. Surrender, and answer for your crimes. Why do I keep letting you hide me inside of things?
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                    <div class="leave reply mt-5">
+                                        <h3>Leave a reply</h3>
+                                        <div class="row">
+                                            <div class="col-xl-12 col-md-12">
+                                                <form action="" method="POST" class="form" id="form-1" >
+                                                    <div class="row">
+                                                        <div class="col-xl-6 col-lg-6 col-md-6">
+                                                            <div class="form-group">
+                                                                <label  class="form-label"><b>*Your Name</b></label>
+                                                                <input id="name" name="name" type="text" placeholder="Enter Your Name" class="form-control" required>
+                                                            </div>
+                                                           
+                                                        </div>
+                                                        <div class="col-xl-6 col-lg-6 col-md-6">
+                                                            <div class="form-group">
+                                                                <label  class="form-label"><b>*Your Email</b></label>
+                                                                <input id="email" name="email" type="text" placeholder="Enter Your Email" class="form-control" required>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-xl-12 col-lg-12 col-md-12">
+                                                            <div class="d-flex flex-column justify-content-start">
+                                                                <label  class="form-label"><b>Your Review*</b></label>
+                                                                <textarea name="text" class="message-form" required></textarea>
+                                                            </div>
+                                                                <button class="p-2 mt-3 rounded border border-0 bg-primary text-white">
+                                                                    <b>POST COMMENT</b>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>            
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-12 col-12">
+                    <div class="leftcon">
+                        <div class="sidebar-2 pb-3">
+                            <h5 class="sidebar-tit">RECENT</h5>
+                            <div class="topgame d-flex flex-column">
+                                <div class="cate-top bg-white">
+                                    <div class="cate-product_img" >
+                                        <img class="product-img" src="img/poster1.jpg">
+                                    </div>
+                                    <div class="cate-product_text text-dark">
+                                        <h6 class="font-weight-bold text-rated">God of War 4 GOTY</h6>
+                                        <div class="star-icon mt-2">
+                                          <label for="rating1" class="fa fa-star"></label>
+                                          <label for="rating2" class="fa fa-star"></label>
+                                          <label for="rating3" class="fa fa-star"></label>
+                                          <label for="rating4" class="fa fa-star"></label>
+                                          <label for="rating5" class="fa fa-star"></label>
+                                        </div>
+                                        <span class="font-weight-bolder">$60.00</span>
+                                    </div>
+                                </div>
+                                <div class="cate-top bg-white">
+                                    <div class="cate-product_img" >
+                                        <img class="product-img" src="img/poster4.jpg">
+                                    </div>
+                                    <div class="cate-product_text text-dark" >
+                                        <h6 class="font-weight-bold text-rated">The Last of Us Part 2</h6>
+                                        <div class="star-icon mt-2">
+                                          <label for="rating1" class="fa fa-star"></label>
+                                          <label for="rating2" class="fa fa-star"></label>
+                                          <label for="rating3" class="fa fa-star"></label>
+                                          <label for="rating4" class="fa fa-star"></label>
+                                          <label for="rating5" class="fa fa-star"></label>
+                                        </div>
+                                        <span class="font-weight-bolder">$60.00</span>
+                                    </div>
+                                </div>
+                                <div class="cate-top bg-white ">
+                                    <div class="cate-product_img" >
+                                        <img class="product-img" src="img/poster3.jpg">
+                                    </div>
+                                    <div class="cate-product_text text-dark" >
+                                        <h6 class="font-weight-bold text-rated">Sekiro: Shadow Die Twice</h6>
+                                        <div class="star-icon mt-2">
+                                          <label for="rating1" class="fa fa-star"></label>
+                                          <label for="rating2" class="fa fa-star"></label>
+                                          <label for="rating3" class="fa fa-star"></label>
+                                          <label for="rating4" class="fa fa-star"></label>
+                                          <label for="rating5" class="fa fa-star"></label>
+                                        </div>
+                                        <span class="font-weight-bolder">$60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-2 pb-3 pt-3">
+                            <h5 class="sidebar-tit">TAGS</h5>
+                            <ul class="sidebar-text3 d-flex flex-wrap">
+                                <li><a href="#">#GOW</a></li>
+                                <li><a href="#">#GOTY</a></li>
+                                <li><a href="#">#Best</a></li>
+                                <li><a href="#">#ProVip</a></li>
+                                <li><a href="#">#Lửa Chùa</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-2 pb-5">
+                            <img src="img/banner-shop.jpg" class="w-100">
+                        </div>
+                        <div class="sidebar-1 pb-3">
+                            <h5 class="sidebar-tit">CUSTOM MENU</h5>
+                            <ul class="sidebar-text">
+                                <li><a href="#">Search Terms</a></li>
+                                <li><a href="#">Advanced Search</a></li>
+                                <li><a href="#">Helps & Faqs</a></li>
+                                <li><a href="#">Store Location</a></li>
+                                <li><a href="#">Orders & Returns</a></li>
+                                <li><a href="#">Deliveries</a></li>
+                                <li><a href="#">Refund & Returns</a></li>
+                            </ul>
+                        </div>                
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer mt-5">
+        <div class="container p-0">
+            <div class="row m-0 bgbot d-flex justify-content-center pt-5 pb-5">
+                    <div class="col-lg-4 col-md-6">
+                            <img src="img/mylogo.png" class="pb-4 position-relative w-50">
+                            <p class=""><i class="fas fa-home"></i> Van Xuyen, Hoang Van, Hiep Hoa, Bac Giang</p>
+                            <p class=""><i class="fas fa-phone-alt"></i> 0385079001</p>
+                            <p class=""><i class="fas fa-envelope"></i> khoanx1007@gmail.com</p>
+                            <div class="footer-block-icon">
+                                <span class="footer-icon">
+                                    <i class="fab fa-facebook"></i>
+                                   </span>
+                                   <span class="footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                   </span>
+                                   <span class="footer-icon">
+                                    <i class="fab fa-youtube"></i>
+                                   </span>
+                                   <span class="footer-icon">
+                                    <i class="fab fa-google-plus-g"></i>
+                                </span>
+                            </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                            <h6 class="mb-4 h5 font-weight-bold">INFORMATION</h6>
+                            <ul class="list-unstyled ">
+                                <li><a href="">Delivery Information </a></li>
+                                <li><a href="">Advanced Search</a></li>
+                                <li><a href="">Helps & Faqs</a></li>
+                                <li><a href="">Store Location </a></li>
+                                <li><a href="">Orders & Returns </a></li>
+                                <li><a href="">Deliveries </a></li>
+                                <li><a href="">Refund & Returns</a></li>
+                            </ul>
+
+                    </div>                        
+                    <div class="col-lg-2 col-md-3">
+                            <h6 class="mb-4 h5 font-weight-bold">OUR COMPANY</h6>
+                            <ul class="list-unstyled ">
+                                <li><a href="">Delivery </a></li>
+                                <li><a href="">Legal Notice </a></li>
+                                <li><a href="">Sitemap</a></li>
+                                <li><a href="">Secure payment</a></li>
+                                <li><a href="">Blog </a></li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Carrers</a></li>                        
+                            </ul>
+                    </div>                        
+                    <div class="col-lg-2 col-md-6">
+                            <h6 class="mb-4 h5 font-weight-bold">MY ACCOUNT</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="">Search Terms</a></li>
+                                <li><a href="">Advanced Search </a></li>
+                                <li><a href="">Helps & Faqs </a></li>
+                                <li><a href="">Store Location</a></li>
+                                <li><a href="">Orders & Returns</a></li>
+                                <li><a href="">Deliveries</a></li>
+                                <li><a href="">Refund & Returns</a></li>                                
+                            </ul>
+                    </div>                        
+                    <div class="col-lg-2 col-md-6">
+                            <h6 class="mb-3 h5 font-weight-bold">OPENING TIME</h6>
+                            <ul class="list-unstyled mb-3">
+                                <li><a href="">Mon - Fri : 8AM - 10PM </a></li>
+                                <li><a href="">Sat : 9 AM-8PM </a></li>
+                                <li><a href="">Suns : 14hPM - 18hPM</a></li>
+                                <li><a href="">Mon - Fri : 8AM - 10PM</a></li>
+                                <li><a href="">We Work All The Holidays </a></li>
+                            </ul>      
+                            <a href="">Download My App</a>                         
+                    </div>
+            
+            </div>
+            <div class="row m-0 bgbot2 pt-2 pb-2">
+                <div class="col-12 text-center">
+                    <span><i class="far fa-copyright"></i> 2021 <span style="color:dodgerblue;">BeuStore. </span> Made with <i class="fas fa-heart text-danger"></i> by BeuToxic</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/code.js"></script>
+    <script src="js/blogdecode.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

@@ -78,3 +78,19 @@
 #rcdes{
     display: none;
 }
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    .threedes>li{
+        font-size: 15px;
+    }
+    .left-description{
+        margin-top: 150px;
+    }
+    }
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .service-goods>a{
+        font-size: 15px !important;
+    }
+    .des-farcry>h6{
+        font-size: 15px;
+    }
+    }    

@@ -70,6 +70,28 @@ $(document).ready(function(){
                 }
             }
         })
+$(function() {
+    $("form[name='registration']").validate({
+      rules: {
+        email: {
+          required: true,
+          email: true
+        }
+      },
+      messages: {
+        email: "Please enter a valid email address"
+      },    
+      submitHandler: function(form) {
+        form.submit();
+      },
+      errorPlacement: function(error, element) 
+    {
+    { 
+        error.insertBefore( element );
+    }
+    }
+    });
+  });
         $('.bannerslide').owlCarousel({
             autoplay:true,
             loop:true,

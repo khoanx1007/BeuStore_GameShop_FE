@@ -29,13 +29,8 @@ $(document).ready(function() {
         },
          errorPlacement: function(error, element) 
 {
-    if ( element.is(":radio") ) 
-    {
-        error.appendTo( element.parents('.form-group') );
-    }
-    else 
-    { // This is the default behavior 
-        error.insertAfter( element );
+    { 
+        error.insertBefore( element );
     }
  },
         submitHandler: function(form) {

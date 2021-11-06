@@ -53,10 +53,13 @@
     font-size: 15px;
     text-decoration: none !important;
     cursor: pointer;
-    color: white;
+    color: white !important;
 }
 .buycart>button:hover{
     opacity: 0.9;
+}
+.cart-contentic>span>i{
+    cursor: pointer;
 }
 .clearcart>a{
     border: 0px;
@@ -66,7 +69,8 @@
     font-size: 15px;
     text-decoration: none !important;
     cursor: pointer;
-    color: white;
+    color: white !important;
+    cursor: pointer;
 }
 .clearcart>a:hover{
     opacity: 0.9;

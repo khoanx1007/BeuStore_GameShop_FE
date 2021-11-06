@@ -519,19 +519,19 @@ color: white;
     font-size:60px;
 }
 .client-saying1{
-    background-image: linear-gradient(to bottom,  rgba(54, 54, 54, 0.8),rgba(245, 244, 245, 0.2)), url('../IMG/wallpp.jpg');
+    background-image: linear-gradient(to bottom,  rgba(54, 54, 54, 0.8),rgba(245, 244, 245, 0.2)), url('../img/wallpp.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .client-saying2{
-    background-image: linear-gradient(to bottom,  rgba(54, 54, 54, 0.8),rgba(245, 244, 245, 0.2)), url('../IMG/wallpp2.jpg');
+    background-image: linear-gradient(to bottom,  rgba(54, 54, 54, 0.8),rgba(245, 244, 245, 0.2)), url('../img/wallpp2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .client-saying3{
-    background-image: linear-gradient(to bottom,  rgba(54, 54, 54, 0.8),rgba(245, 244, 245, 0.2)), url('../IMG/wallpp3.jpg');
+    background-image: linear-gradient(to bottom,  rgba(54, 54, 54, 0.8),rgba(245, 244, 245, 0.2)), url('../img/wallpp3.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -571,7 +571,7 @@ color: white;
     font-weight: bold;
 }
 .subcriber{
-    background-image: linear-gradient(to bottom,  rgba(54, 54, 54, 0.8),rgba(245, 244, 245, 0.2)), url('../IMG/subcribeahihi.jpg');
+    background-image: linear-gradient(to bottom,  rgba(54, 54, 54, 0.8),rgba(245, 244, 245, 0.2)), url('../img/subcribeahihi.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;

@@ -507,7 +507,7 @@ color: white;
     color: dodgerblue;
 }
 .gta-v{
-    background-image: linear-gradient(to bottom, rgba(245, 244, 245, 0.2), rgba(54, 54, 54, 0.8)), url('../IMG/bannerbackgroundsale.jpg');
+    background-image: linear-gradient(to bottom, rgba(245, 244, 245, 0.2), rgba(54, 54, 54, 0.8)), url('../img/bannerbackgroundsale.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -8,6 +8,9 @@ $(document).ready(function() {
         }
 
     });
+    $('.clc').click(function () {
+        $('.cartitem').css({'display':'none'});
+    });
     $('.decre').click(function (e) {
         var decre_value = $(this).parents('.quantity').find('.qty-in').val();
         var value = parseInt(decre_value);

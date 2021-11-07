@@ -70,7 +70,7 @@
         top: 0;
         width: 100%;
         background-color: rgba(0,0,0,0.6);
-        z-index: 5000;
+        z-index: 100000;
     }
     .menu-resin{
         position: fixed;
@@ -266,7 +266,7 @@
         top: 0;
         width: 100%;
         background-color: rgba(0,0,0,0.6);
-        z-index: 5000;
+        z-index: 100000;
     }
     .menu-resin{
         position: fixed;

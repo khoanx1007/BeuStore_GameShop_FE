@@ -604,7 +604,6 @@ color: white;
 }
 .footer-block-icon {
     display:flex;
-    padding-top: 10px;
 }
 .list-unstyled>li>a{
     text-decoration: none !important;
@@ -614,7 +613,9 @@ color: white;
 .list-unstyled>li>a:hover{
     color: dodgerblue;
 }
-
+.bgbot2{
+    border-top:1px solid black ;
+}
 #back-to-top{
     position:fixed;
     right: 20px;

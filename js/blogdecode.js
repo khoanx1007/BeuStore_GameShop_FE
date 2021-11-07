@@ -2,11 +2,11 @@ $(document).ready(function(){
     jQuery.validator.addMethod("customEmail", function(value, element) { 
         return this.optional( element ) || /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test( value ); 
       }, "Please enter valid email address!");
-    $('#form-1').validate({
-        ruler: {
+    $('.formblog').validate({
+        rules: {
             name : "required",
             email: {
-                required:"required",
+                required:true,
                 email:true,
                 customEmail: true
             },
@@ -19,12 +19,20 @@ $(document).ready(function(){
             },
             email: {
                 required: "Please enter your email",
-                email: true,
-                customEmail: true
             },
             text : {
                 required: "Please write something ",
             }
+        }
+        ,
+         errorPlacement: function(error, element) 
+{
+    { 
+        error.insertBefore( element );
+    }
+ },
+        submitHandler: function(form) {
+            form.submit();
         }
     })
 })

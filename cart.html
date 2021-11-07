@@ -45,7 +45,7 @@
     <nav class="navbar navbar-expand-lg header">   
         <div class="container d-flex align-items-center justify-content-between">
             <div id="left-1" class="col-xl-3 col-lg-3 col-md-6 col-8 text-left">
-                 <img src="img/mylogo.png" id="logo">
+                 <a href="index.html"><img src="img/mylogo.png" id="logo"></a>
             </div>
             <div class="col-md-6 col-4 tab-content">
                 <div class="d-flex justify-content-end">
@@ -433,7 +433,7 @@
                                 <p>Enter your destination to get a shipping estimate</p>
                                 <div class="country-select d-flex flex-column">
                                     <label class="form-label font-weight-bold h6 pb-2" >*Country</label>
-									<input list="boxop" name="country" class="form-group" required placeholder="Select Country">
+									<input list="boxop" name="country" class="form-group opti" required placeholder="Select Country">
 									<datalist id="boxop">
                                         <option value="Japan"></option>
                                         <option value="England"></option>
@@ -444,8 +444,8 @@
                                 </div>
                                 <div class="country-select d-flex flex-column">
                                     <label class="form-label font-weight-bold h6 pb-2" >*Region/State</label>
-									<input list="boxop2" name="rgst" class="form-group" required placeholder="Select Region/State">
-									<datalist id="boxop2">
+									<input list="boxop2" name="rgst" class="form-group opti" required placeholder="Select Region/State">
+									<datalist id="boxop2">  
                                         <option value="Tokyo"></option>
                                         <option value="Kyoto"></option>
                                         <option value="Osaka"></option>
@@ -455,7 +455,7 @@
                                 </div>
                                 <div class="country-select d-flex flex-column">
                                     <label class="form-label font-weight-bold h6 pb-2" >*Zip/Postal Code </label>
-									<input type="text" name="zipo" class="form-group" required>
+									<input type="text" name="zipo" class="form-group opti" required>
                                 </div>
                                 <div class="buycart mt-3">
                                     <button>GET A QUOTE</button>
@@ -467,7 +467,7 @@
                                 <p>Enter your coupon code if you have one.</p>
                                 <div class="country-select d-flex flex-column">
                                     <label class="form-label font-weight-bold h6 pb-2" >Enter Coupon Code</label>
-									<input type="text" name="coupon" class="opti">
+									<input type="text" name="coupon" class="opti form-group">
                                 </div>
                                 <div class="buycart mt-3">
                                     <button>GET COUPON</button>
